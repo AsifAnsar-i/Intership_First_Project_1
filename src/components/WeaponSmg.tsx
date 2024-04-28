@@ -89,7 +89,7 @@ const WeaponSmg = () => {
                 <p>Primary</p>
               </p>
             </Link>
-            <Link to="/teamdeath" className="flex">
+            <Link to="#" className="flex">
               <img src={mouseicon} alt="logo" className="w-[32px] h-[32px]" />
               <p className=" text-xl text-[#7D8185]">Alt. Fire</p>
             </Link>
