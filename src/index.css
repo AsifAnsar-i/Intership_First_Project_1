@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+  background-color: #37021a;
+  background-image: linear-gradient(
+    225deg,
+    #37021a 0%,
+    #1d0331 50%,
+    #052a41 100%
+  );
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
